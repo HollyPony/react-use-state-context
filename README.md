@@ -29,8 +29,8 @@ export default function App() {
     <div>
       <span>{state["fetch"] ? "fetching" : "fetched"}</span>
       <span>{state[undefined]}</span>
-      <button onClick={() => dispatch(false, "fetch")}>Start fetch</button>
-      <button onClick={() => dispatch(true, "fetch")}>Stop fetch</button>
+      <button onClick={() => dispatch(true, "fetch")}>Start fetch</button>
+      <button onClick={() => dispatch(false, "fetch")}>Stop fetch</button>
     </div>
   );
 }
