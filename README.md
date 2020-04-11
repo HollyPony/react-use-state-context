@@ -1,10 +1,10 @@
-# React-Use-State-Context
+# React-Use-State-Reducer
 
 A hook to avoid multiple declaration of `const [xLoading, setXLoading] = useState(false)`
 
 ## Sample
 
-`npm i react-use-state-context`
+`npm i react-use-state-reducer`
 
 ```js
 import React from "react";
@@ -38,7 +38,3 @@ export default function App() {
 
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
-
-## Install
-
-- `npm i react-rest-state-context`
